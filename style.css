@@ -1,0 +1,229 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html.body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1,h2,h3 {
+  padding-bottom: 20px;
+}
+
+p { 
+  margin: 10px 0;
+}
+
+/* Utility Class */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+.text-primary {
+  color: #f4f4f4;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #61AC77;
+  padding: 13 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #70BE87;
+  color: #9FE2BF;
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #61AC77
+}
+
+.bg-dark {
+  background: #2C372F;
+  color: #f4f4f4;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #61AC77;
+}
+
+.bg-primary {
+  background: #61AC77;
+  color: #fff;
+}
+
+.clr {
+  clear: both;
+}
+
+/* Navbar */
+#navbar {
+  background: #61AC77;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+ #navbar ul {
+   list-style: none;
+   float: right;
+ }
+
+ #navbar ul li {
+   float: left;
+ }
+
+ #navbar ul li a {
+   display: block;
+   padding: 20px;
+   text-align: center;
+ }
+
+ #navbar ul li a:hover,
+ #navbar ul li a.current {
+   background: #70BE87;
+   color: #9FE2BF;
+ }
+
+ /* Showcase */
+ #showcase {
+   background: url('../mind/img/showcase\ mind.jpg') no-repeat
+   center center/cover;
+   height: 600px;
+ }
+
+ #showcase .showcase-content {
+color: #fff;
+text-align: center;
+padding-top: 170px;
+ }
+ 
+ #showcase .showcase-content h1 {
+   font-size: 60px;
+   line-height: 1.2em;
+ }
+
+ #showcase .showcase-content p {
+   padding-bottom: 20px;
+   line-height: 1.7em;
+ }
+
+ /* Home info */
+ #home-info {
+   height: 400px;
+ }
+
+ #home-info .info-img {
+   float: left;
+   width: 50%;
+   background: url(../mind/img/light-aesthetic-green-Favim.com-7138022.jpg);
+   min-height: 100%;
+ }
+
+ #home-info .info-content {
+   float: right;
+   width: 50%;
+   height: 100%;
+   text-align: center;
+   padding: 50px 30px;
+   overflow: hidden;
+ }
+
+ #home-info .info-content p {
+   padding-bottom: 30px;
+ }
+
+ /*features */
+ .box {
+   float: left;
+   width: 33.3%;
+   padding: 50px;
+   text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+  size: 7ex;
+}
+
+/* Message Box  */
+#contact-form {
+  background: url(./mind/img/e936aa1b157be23cfc649428b3c26a13.JPG);
+}
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+#contact-form label {
+  display:block;
+  margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid; 
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #61AC77;
+}
+
+.heading-Write { 
+text-align: center;
+background: #9FE2BF;
+color: #f4f4f4  
+
+}
+
+.font-Write {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  padding-top: 20px;
+}
+
+
+/* footer */
+#main-footer {
+  text-align: center;
+  background: #f4f4f4;
+  color: #2C372F;
+  padding: 20px;
+}
